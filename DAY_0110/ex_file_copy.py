@@ -7,8 +7,8 @@ filename = 'message.txt'
 
 # 원본 파일에 내용 읽은 후 저장
 with open(filename, mode='r', encoding='utf-8') as f :
-    # print(f.read())
     data = f.read()
+    # print(data)
 
 # 복사본 파일에 내용 쓰기
 with open('mydata_copy.txt', mode='w', encoding='utf-8') as f :
