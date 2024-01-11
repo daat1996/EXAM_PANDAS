@@ -21,7 +21,7 @@ print(china_food)
 key = ''
 with open(file, mode='r', encoding='utf8') as f:        # 2. 딕셔너리로 정리하는 법
     datas = f.readlines()
-
+print(datas)
 for mas in datas:
     mas = mas.replace('\n','')
     if not mas.find('*'):
